@@ -26,6 +26,7 @@ if(isset($_POST['listaz'])){
 
 
 ?>
+
 <div>
 <h1>Kötelező olvasmányok</h1>
 <form method="post">

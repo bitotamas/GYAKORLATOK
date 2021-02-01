@@ -1,0 +1,6 @@
+table,thead,tbody,tr,td,th{
+    border: 2px solid black;
+}
+thead{
+    background-color: rgb(93, 90, 90);
+}

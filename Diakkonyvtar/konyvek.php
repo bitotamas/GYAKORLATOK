@@ -15,10 +15,10 @@ $index++;
 <div>
 <table>
     <thead>
-        <th></th>
+        <th class="text-center"></th>
         <th>Szerző</th>
         <th>Cím</th>
-        <th>Darabszám</th>
+        <th class="text-center">Darabszám</th>
     </thead>
     <tbody>
         <?=$tbl?>

@@ -32,7 +32,7 @@ require_once "database/config.php";
 			<li class="nav-item"><a class="nav-link" href="index_.php?page=fooldal.php">Főoldal</a></li>
 			<li class="nav-item"><a class="nav-link" href="index_.php?page=konyvek.php">Könyvek</a></li>
 			<li class="nav-item"><a class="nav-link" href="index_.php?page=kotelezo.php">Kötelező olvasmányok</a></li>
-			<li class="nav-item"><a class="nav-link" href="index_.php">Kölcsönzések</a></li>
+			<li class="nav-item"><a class="nav-link" href="index_.php?page=kolcsonzes.php">Kölcsönzések</a></li>
 			<li class="nav-item"><a class="nav-link" href="index_.php">Új könyv</a></li>
 			<li class="nav-item"><a class="nav-link" href="index_.php">Évfolyam módosítás</a></li>
 		</ul>
