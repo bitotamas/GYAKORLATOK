@@ -1,3 +1,7 @@
+<?php
+session_start();
+require_once "database/config.php";
+?>
 <!DOCTYPE html>
 <html lang="hu">
 <head>
@@ -25,12 +29,12 @@
 		<span class="navbar-brand">Diákkönyvtár</span>
 	<div class="navbar-collapse collapse " id="menuid">
 		<ul class="navbar-nav mr-auto">
-			<li class="nav-item"><a class="nav-link" href="">Főoldal</a></li>
-			<li class="nav-item"><a class="nav-link" href="">Könyvek</a></li>
-			<li class="nav-item"><a class="nav-link" href="">Kötelező olvasmányok</a></li>
-			<li class="nav-item"><a class="nav-link" href="">Kölcsönzések</a></li>
-			<li class="nav-item"><a class="nav-link" href="">Új könyv</a></li>
-			<li class="nav-item"><a class="nav-link" href="">Évfolyam módosítás</a></li>
+			<li class="nav-item"><a class="nav-link" href="index_.php?page=fooldal.php">Főoldal</a></li>
+			<li class="nav-item"><a class="nav-link" href="index_.php?page=konyvek.php">Könyvek</a></li>
+			<li class="nav-item"><a class="nav-link" href="index_.php?page=kotelezo.php">Kötelező olvasmányok</a></li>
+			<li class="nav-item"><a class="nav-link" href="index_.php">Kölcsönzések</a></li>
+			<li class="nav-item"><a class="nav-link" href="index_.php">Új könyv</a></li>
+			<li class="nav-item"><a class="nav-link" href="index_.php">Évfolyam módosítás</a></li>
 		</ul>
 	</div>
 </nav>  
@@ -38,7 +42,10 @@
 <main role="main" class="container p-2">
 	<div class="jumbotron">
 		<?php
-		echo "ide kell kerülön a tartalom";
+			if(isset($_GET["page"])){
+				include  $_GET['page'];
+			}	
+			else include("fooldal.php");
 		?>
     </div>
 </main>
