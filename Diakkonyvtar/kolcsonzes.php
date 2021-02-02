@@ -7,7 +7,7 @@ $e=$v="";
 
 //print_r($_POST);
 
-$sql="SELECT nev FROM diak GROUP BY nev";
+$sql="SELECT nev FROM diak";
 $stmt=$db->prepare($sql);
 $stmt->execute();
 while($row=$stmt->fetch()){
