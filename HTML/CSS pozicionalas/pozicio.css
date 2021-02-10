@@ -4,9 +4,38 @@ body{
   background-color: antiquewhite;
   height: 2000px;
   margin-top: 50px;
+  font-family: 'Sen', sans-serif;
 }
 
 div{
   display:block;
 }
 /*pozicionálás*/
+.main{
+  position: relative;
+}
+.close{
+  position: absolute;
+  top: 0;
+  right: 10px;
+  
+}
+.name{
+  margin-top: 10px;
+}
+.jel{
+  position: relative;
+  top: 5px;
+}
+.kerdojel{
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  padding: 2px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
