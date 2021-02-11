@@ -1,4 +1,5 @@
 <?php
+session_start();
 include_once "config.php";
 ?>
 <!DOCTYPE html>
@@ -38,6 +39,12 @@ include_once "config.php";
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="index.php?page=diakTantargy.php">Diák-tantárgy</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="index.php?page=oradijModositas.php">Óradíj módosítás</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="index.php?page=ujDiak.php">Új diák</a>
 			</li>
 		</ul>
   </div>

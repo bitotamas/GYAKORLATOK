@@ -6,3 +6,7 @@
 ul>li{
     list-style-type: none;
 }
+.telefon{
+    width: 100px;
+    text-align: center;
+}
