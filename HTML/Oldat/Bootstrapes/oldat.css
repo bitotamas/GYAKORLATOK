@@ -1,0 +1,35 @@
+.hr{
+ border-top: 10px dashed teal;     
+}
+body{
+    background-image: url("minta.jpg");
+    background-repeat: no-repeat;
+}
+.oldatok{
+    font-weight: bold;
+    text-decoration: underline;
+}
+ul>li{
+    list-style-image: url("lombik.png");
+}
+.keplet{
+    background-color: teal;
+    font-style: italic;
+}
+a,a:hover{
+    text-decoration: none;
+    color:black;
+    font-style: italic;
+    font-weight: bold;
+}
+input{
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+}
+#oldat{
+    color:teal;
+}
+.kep{
+    border: 10px solid teal;
+}
