@@ -78,6 +78,7 @@ th{
 body{
   background-image: url("back.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 a{
   text-decoration: none;
