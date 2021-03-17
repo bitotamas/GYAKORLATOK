@@ -1,0 +1,14 @@
+
+.tartalom{
+    border:1px solid lightgray;
+    min-height: 600px;
+}
+table,tr,td,th{
+    border: 2px solid black;
+}
+h1,h2,h3{
+    text-decoration: underline;
+}
+.types{
+    list-style-type: none;
+}
