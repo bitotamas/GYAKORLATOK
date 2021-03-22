@@ -90,4 +90,13 @@ th,td{
   padding: 13px;
   border: 2px solid black;
 }
+#foszereplo{
+  cursor: pointer;
+}
+#foszereplo:hover{
+  color: blue;
+}
+#kephelye{
+  width: 50px;
+}
 
