@@ -3,7 +3,6 @@ window.addEventListener('load',()=>{
 })
 let kepp=0;
 function kep(){
-    console.log("asd");
     if(kepp==0){
         document.getElementById('kephelye').src="hBogart.jpg";
         document.getElementById('sortores').innerHTML="<br>";
