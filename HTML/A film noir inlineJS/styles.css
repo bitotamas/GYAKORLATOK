@@ -1,0 +1,102 @@
+body {
+  font-family: sans-serif;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-attachment: fixed;
+}
+
+#content {
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 40px;
+  width: 980px;
+}
+
+.frame {
+  width: 490px;
+  float: left;
+  padding: 0px 5px 5px;
+  overflow: hidden;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.frame img {
+  width: 500px;
+  position: relative;
+  left: -5px;
+  border-bottom: 2px solid black;
+}
+
+h1,
+h2 {
+  font-variant: small-caps;
+  font-style: italic;
+}
+
+p.imgtitle {
+  font-size: 1.1em;
+  margin: 0;
+}
+
+table,
+.frame {
+  border: 3px solid black;
+}
+
+a:link,
+a:visited {
+  color: black;
+}
+
+
+p{
+  text-align: justify;
+  text-indent: 20px;
+}
+.imgtitle{
+  font-style: italic;
+  text-align: center;
+  line-height: 150%;
+}
+table{
+  background-color: rgba(255, 255, 255, 0.9);
+  float: right;
+  margin-left: 20px;
+  border-collapse: collapse;
+  
+}
+th{
+  background-color: gray;
+  color: white;
+}
+body{
+  background-image: url("back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: red;
+}
+th,td{
+  padding: 13px;
+  border: 2px solid black;
+}
+#foszereplo{
+  cursor: pointer;
+}
+#foszereplo:hover{
+  color: blue;
+}
+#kephelye{
+  width: 50px;
+}
+
