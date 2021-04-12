@@ -1,15 +1,15 @@
 window.addEventListener('load',()=>{
     document.getElementById('foszereplo').addEventListener('click',kep);
 })
-let kepp=0;
+let kepp=false;
 function kep(){
-    if(kepp==0){
+    if(kepp==false){
         document.getElementById('kephelye').src="hBogart.jpg";
         document.getElementById('sortores').innerHTML="<br>";
-        kepp=1;
+        kepp=true;
     }else{
         document.getElementById('kephelye').src="";
         document.getElementById('sortores').innerHTML="";
-        kepp=0;
+        kepp=false;
     }
 }
