@@ -1,0 +1,10 @@
+body{
+    min-height: 75rem;
+    padding-top: 4.5rem;
+}
+table,thead,tbody,tr,td,th{
+    border: 2px solid black;
+}
+thead{
+    background-color: rgb(93, 90, 90);
+}
