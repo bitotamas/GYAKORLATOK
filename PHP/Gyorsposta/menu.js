@@ -9,6 +9,7 @@ function menuHighlight(){
 		var str=document.URL;
 		if (document.links[i].href == str) 
 			document.links[i].style.color = 'lightgreen';
+	
 	}
 }
 
